@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rocamadour2"
+
+    tools:context=".MainActivityContact">
+
+
+    <ImageView
+        android:id="@+id/imageViewSignal"
+        android:src="@drawable/signal"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewUrgence"
+        android:background="@drawable/cornercreation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/urgence"
+        android:layout_below="@id/imageViewSignal"
+        android:textColor="@color/teal_700"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_below="@id/textViewUrgence"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/teal_700"
+        android:textSize="17dp"
+        android:background="@drawable/cornercreation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+    />
+
+    <TextView
+        android:id="@+id/textViewSiteWeb"
+        android:background="@drawable/cornercreation"
+        android:textColor="@color/teal_700"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewEmail"
+        android:layout_marginTop="20dp"
+        android:text="@string/siteweb"
+
+/>
+
+</RelativeLayout>

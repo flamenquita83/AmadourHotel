@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rocamadour2"
+    tools:context=".MainActivityInformation">
+
+    <ImageView
+        android:id="@+id/imageViewRestaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/restaurant1"
+        />
+
+    <TextView
+        android:id="@+id/textViewRestaurant"
+        android:background="@drawable/cornercreation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/restaurant"
+        android:layout_below="@id/imageViewRestaurant"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:textSize="17dp"
+    />
+
+    <ImageView
+        android:id="@+id/imageViewPfj"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/pdjok"
+        android:layout_below="@id/textViewRestaurant"
+        android:layout_marginTop="30dp"
+        />
+
+
+    <TextView
+        android:id="@+id/textViewPdj"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/cornercreation"
+       android:layout_below="@id/imageViewPfj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/petit_dejeuner"
+        android:textSize="17dp"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+
+        />
+
+
+
+
+
+
+</RelativeLayout>

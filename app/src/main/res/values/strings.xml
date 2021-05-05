@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HotelApplication</string>
+    <string name="confirm">confirm</string>
+    <string name="urgence">Vous pouvez me contacter en cas d urgence avec cette application
+        (via le wifi ou vos données mobiles) ou en m appelant directement au 0660328601.
+Allez sur le Playstore ou Apple Store pour Signal</string>
+    <string name="email">Email Adress : contact@amadour-hotel.com</string>
+    <string name="siteweb">http://www.amadour-hotel.com/fr/index.php</string>
+    <string name="restaurant">Restaurant Le Quercygnac : Se trouvant dans la rue principale de Rocamadour, offrant une cuisine francaise
+    avec un rapport/qualité prix interessant. </string>
+    <string name="petit_dejeuner">Petit-dejeuner : Les petits-déjeuners ont lieu avec un planning de réservation. Vous pouvez réserver par email
+    ou par téléphone au 0565337350</string>
+
+</resources>
